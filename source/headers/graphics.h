@@ -15,6 +15,8 @@ class Graphics {
 public:
 	Graphics();
 	~Graphics();
+
+	SDL_Surface *loadImage(const std::string &filePath);
 private:
 	SDL_Window *_window;
 	SDL_Renderer *_renderer;
