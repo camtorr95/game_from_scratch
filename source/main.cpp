@@ -6,12 +6,9 @@
  *      Author: camtorr95
  */
 
-#include "graphics.h"
+#include "game.h"
 
 int main(int argc, const char* argv[]) {
-	Graphics graphics;
-	while (1) {
-
-	}
+	Game game;
 	return 0;
 }
